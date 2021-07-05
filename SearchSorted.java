@@ -3,7 +3,7 @@ public class SearchSorted {
     static int searchSorted(int[] nums, int target) {
 
         int left = 0;
-        int right = nums.length;
+        int right = nums.length; // array from input
 
         while (left < right) {
             int mid = left + (right - left) / 2;
